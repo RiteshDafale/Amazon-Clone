@@ -1,0 +1,516 @@
+*{
+    margin:0px;   
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    height:60px; 
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+ justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.panelopt-1:hover{
+    font-size: 1rem;
+}
+.nav-logo{   
+height:60px;
+width:100%;
+}
+
+.logo{
+   background-image: url('images/amazon_logo.png');
+    background-size: cover;
+    height:60px;
+}
+
+.logo{
+    width:8%
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+    cursor: pointer;
+}
+.nav-text{
+    position: absolute;
+    left:17vh;
+}
+.loc-logo{
+    display: flex;
+    align-items: center;
+}
+.loc-home{
+    color: #cccccc;
+   font-size: 0.85rem;
+   margin-left: 18px;
+   align-content: center;
+}
+.loc-area{
+font-size: 1rem;
+margin-left: 5px;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left:38vh;
+    width:628px;
+    height: 34px;
+    margin-left: 53px;
+}
+.nav-search:hover{
+    border:2px solid orange;
+}
+.search-select{
+    cursor: pointer;
+   text-align: center;
+   background-color:  #dadada;
+   width:50px;
+   height:35px;
+   font-size: 1rem;
+   border-bottom-left-radius: 3px;
+   border-top-left-radius: 3px;
+   border:none;
+}
+.search-input{
+width:100%;
+   height:35px;
+   font-size: 1rem;
+   border:none;
+}
+.search-logo{
+    width:40px;
+    border:none;
+    height:35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 170, 0);
+    cursor: pointer;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-size: 1rem;
+}
+.nav-signin{
+    position: absolute;
+    left: 148vh;
+}
+
+.style{
+    font-size: 0.7rem;
+}
+
+.nav-signin select
+{
+    background-color: black;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border:none;
+}
+
+.nav-returns{
+    position: absolute;
+    right: 26vh;
+}
+
+.return-order{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav-cart{
+    position: absolute;
+    right: 4vh;
+}
+.panel{
+    background-color: #222f3d;
+    height: 39px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    color:white;
+    align-items: center;
+}
+
+.panel-opt{
+    display: flex;
+    justify-content: space-between;
+    width:70%;
+    cursor: pointer;
+}
+
+.panel-opt p{
+    font-size: 0.85rem;
+}
+
+.freedom{
+    display:flex;
+    
+}
+.freep1{
+    margin-left:9px;
+}
+
+.freep3{
+    display: flex;
+    align-items: center;
+    margin:10px
+}
+.panel2{
+    display: flex;
+    background-color: #ffffff;
+    height:50px;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+
+.panel2 p:hover{
+ text-decoration: underline;
+ text-decoration-color: rgb(255, 115, 0);
+ text-decoration-thickness:1.5px ;
+}
+
+.panel3{
+    border-right: 1px solid black;
+    width: 15%;
+    height: 100%;
+    cursor: pointer;
+}
+.main-cate{
+    margin-top:17px;
+    margin-left: 32px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cate-sub{
+    margin-left:46px;
+    margin-bottom:4px;
+    font-size: 0.75rem;
+    padding-bottom: 5px;
+}
+.cate-fontsize{
+    font-size: 0.75rem;
+}
+.pointer:hover{
+    color:rgb(255, 115, 0);
+}
+.panel2 p{
+    font-size: 0.85rem;
+}
+.img{
+    width:100%;
+    height:310px;
+    background-image: url('images/amazon-image1.gif');
+}
+.sbi-img{
+    width: 94.7%;
+    height: 69px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-image: url('images/amazon-sbi.jpg');
+}
+.sbi-discount{
+    width:100%l;
+    height:150px;
+    margin-top: 10px;
+    background-image: url('images/discont-img.jpg');
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+
+    height:400px;
+    width:23%;
+    background-color: white;
+    padding:20px 0px  15px;
+}
+
+.box1-content{
+    margin-left:1.3rem;
+    margin-right:1.3rem;
+}
+.box1-image{
+    height:300px;
+    margin-top: 13px;
+    margin-bottom: 22px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box1-text{
+    font-size: 1rem;;
+    color:blue;
+}
+
+#boxh3{
+    margin-bottom: 32px;
+}
+.box1-text:hover{
+    color:red;
+    cursor:pointer;
+}
+
+.box1-text{
+    font-size: 0.85rem;
+    color:blue;
+
+}
+.box1-text:hover{
+    color:red;
+}
+
+.box2-d1{
+
+   height: 119px;
+   width: 130px;
+   cursor: pointer;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.box2-h3{
+    margin-bottom: -40px;
+}
+
+.d1-text{
+    position: absolute;
+    top: 143vh;
+    left: 57vh;
+    margin-left: 2px;
+    font-size: 0.87rem;
+    margin-top: -13px;
+}
+
+.d1text p{
+color:blue;
+font-size: 0.85rem;
+margin-top: 12px;
+}
+
+.d1text p:hover{
+    color:red;
+    text-decoration:underline;
+    cursor: pointer;
+}
+.d1text {
+    
+    position: absolute;
+    top: 169vh;
+    left: 57vh;
+    margin-left:2px;
+}
+
+.d1-text2{
+    position: absolute;
+    left: 80vh;
+    top: 141vh;
+    font-size: 0.85rem;
+
+}
+
+.d1-text3{
+    position: absolute;
+    left: 57vh;
+    bottom: -69vh;
+    font-size: 0.85rem; 
+
+}
+
+.d1-text4{
+    position: absolute;
+    left: 80vh;
+    top: 167vh;
+    font-size: 0.85rem;
+}
+
+/** box3 **/
+
+.box3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: -18px;
+}
+.b3{
+    height: 119px;
+    width: 130px;
+}
+
+.b3-para{
+    font-size: 0.85rem;
+    position: absolute;
+    top: 143vh;
+    left: 107vh;
+}
+
+#storage-img{
+    background-size: cover;
+    padding-left: 22px;
+}
+
+.storage-para{
+    font-size: 0.85rem;
+    position: absolute;
+    top: 143vh;
+    left: 129vh;
+}
+
+#decorationimage{
+    padding-left: 23px;
+}
+.decorationb3{
+    font-size: 0.85rem;
+    position: absolute;
+    top: 168vh;
+    left: 107vh;
+}
+
+.lighting{
+    font-size: 0.85rem;
+    position: absolute;
+    top: 168vh;
+
+}
+
+.offer{
+    font-size: 0.85rem;
+    color: blue;
+    position: absolute;
+    top: 173vh;
+    left: 111vh;
+}
+
+.offer:hover{
+    color:red;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+#combopack{
+    margin-top:23px;
+}
+
+#babydipers{
+    margin-top:23px;
+    
+}
+#empty1{   
+    margin-top:23px;
+}
+#empty2{   
+    margin-top:23px;
+}
+.foot-panel1{
+    background-color:  #222f3df0;
+    color:#ffffff;
+    height:50px;
+    font-size: 0.86rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel1:hover{
+    cursor: pointer;
+    background-color: #222f3de0;
+}
+
+.foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    background-color:#27333fe0 ;
+}
+
+.foot-panel2 ul{
+    list-style: none;
+    margin-top: 37px;
+}
+
+.foot-panel2 li{
+    padding-bottom: 8px;
+}
+.foot-panel2 p{
+    color:white;
+    font-weight: 700;
+}
+.foot-panel2 a{
+    color:white;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+.foot-panel2 a:hover{
+    text-decoration: underline;
+}
+
+.foot-panel3{
+    height:100px;
+    background-color: #27333fe0;
+    border-top: 0.05px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel3-lang{
+    height:33px;
+    width:116px;
+    border:1px solid #dddddd;
+    color:#dddddd;
+    display: flex;
+    font-size: 0.85rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel3-lang{
+  margin-left:97px;
+}
+.logo,.panel3-lang:hover{
+    cursor: pointer;
+}
+
+.foot-panel4{
+    background-color: #131822;
+    color:#dddddd;
+    font-size: 0.85rem;
+display: flex;
+flex-direction: column;
+    height:200px;
+}
+
+.foot-p{
+    margin-left: 76vh;
+}
+
+.foot-p:hover{
+text-decoration: underline;
+}
+
+#para4{
+    margin-top: 13vh;
+}
+
+#secondpara{
+    margin-top: -13px;
+}
+#codingMug {
+    margin-bottom: 30px;
+}
